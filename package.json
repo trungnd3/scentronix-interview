@@ -1,0 +1,15 @@
+{
+  "name": "interview-fullstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:fe": "npm run dev --prefix my-recipes",
+    "dev:be": "npm run dev --prefix server-healthcheck",
+    "test:be": "npm run test --prefix server-healthcheck",
+    "test-watch:be": "npm run test-watch --prefix server-healthcheck"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
